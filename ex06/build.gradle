@@ -4,16 +4,18 @@ plugins {
 }
 
 android {
-    namespace 'com.lisery.ex04'
-    compileSdk 32
+    namespace 'com.example.ex06'
+    compileSdk 33
+
     buildFeatures {
         dataBinding = true
         viewBinding true
     }
+
     defaultConfig {
-        applicationId "com.lisery.ex04"
-        minSdk 29
-        targetSdk 32
+        applicationId "com.example.ex06"
+        minSdk 26
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

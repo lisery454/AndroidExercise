@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".ActivityA">
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/PlayBtn"
+        android:id="@+id/Btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="播放"
+        android:text="产生通知"
         android:textSize="30sp" />
 
-    <Button
-        android:id="@+id/StopBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="停止"
-        android:textSize="30sp" />
 </LinearLayout>
