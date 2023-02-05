@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.ex06'
+    namespace 'com.lisery.ex06'
     compileSdk 33
 
     buildFeatures {
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.ex06"
+        applicationId "com.lisery.ex06"
         minSdk 26
         targetSdk 33
         versionCode 1
